@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.mainCon {
+    display: flex;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+.center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headCenter {
+    display: flex;
+    width: 800px;
+    height: 100%;
+}
+
+.comName {
+    flex: 1;
+    width: 300px;
+    height: 100px;
+}
+
+.comName h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.nav {
+    flex: 2;
+    width: 300px;
+    height: 100px;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 0px 0px 80px;
+} 
+
+.cities li {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+li:hover {
+    cursor: pointer;
+    color: gold;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyWeather {
+    display: inline-block;
+    width: 800px;
+    height: 470px;
+}
+
+.CityTemp {
+    width: 100%;
+    height: 80px;
+    border:2px black;
+    border-style: none none solid none;
+}
+
+.CityTemp h1, p {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.CityTemp p {
+    margin-left: 415px;
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weatherPic {
+    display: inline-block;
+    width: 175px;
+    height: 250px;
+    background-color: silver;
+    margin-top: 20px;
+}
+
+.weatherPic img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 40px;
+}
+
+.rain {
+    display: inline-block;
+    margin: 10px 0px 0px 50px;
+}
+
+.sun1 {
+    display: inline-block;
+    margin: 10px 0px 0px 30px;
+}
+
+.sun2 {
+    display: inline-block;
+    margin: 10px 0px 0px 40px;
+}
+
+.cloud {
+    display: inline-block;
+    margin: 10px 0px 0px 50px;
+}
+
+.pText {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 1.125rem;
+}
+
+.redText {
+    display: inline-block;
+    color: red;
+    margin-left: 33px;
+    font-size: 1.25rem;
+}
+
+.blueText {
+    display: inline-block;
+    color: blue;
+    margin-left: 50px;
+    font-size: 1.25rem;
+}
+
+.cookiesAccept {
+    display: inline-block;
+    width: 795px;
+    height: 125px;
+    border: 2px solid black;
+    position: fixed;
+}
+
+.cookieBox {
+    display: inline-block;
+    height: 125px;
+    width: 100px;
+    vertical-align: top;
+}
+
+.cookiesAccept img {
+    height: 70px;
+    width: 70px;
+    margin: 30px 0px 0px 15px;
+}
+
+.cookieText {
+    display: inline-block;
+    height: 125px;
+    width: 500px;
+    vertical-align: top;
+}
+
+.cookieText h3, .cookieText p {
+    margin-top: 15px;    
+}
+
+.buttonBox {
+    display: inline-block;
+    height: 125px;
+    width: 185px;
+}
+
+.acceptBtn {
+    height: 40px;
+    width: 100px;
+    font-size: 1.25rem;
+    background-color: lightseagreen;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    margin: 40px;
+}
+
+.acceptBtn:hover {
+    background-color: white;
+    cursor: pointer;
+}

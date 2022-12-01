@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="mainCon">
+        <div class="header">
+            <div class="center1">
+                <div class="headCenter">
+                    <div class="comName">
+                        <h1>DojoWeather</h1>
+                    </div>
+                    <div class="nav">
+                        <ul class="cities" onclick="locationMap()">
+                            <li>Burbank</li>
+                            <li>Chicago</li>
+                            <li>Dallas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="center2">
+                <div class="bodyWeather">
+                    <div class="CityTemp">
+                        <h1>San Jose</h1>
+                        <p>Show temperature in </p>
+                        <select name="temp" id="celFah" onchange="temperature()">
+                            <option value="C">°C</option>
+                            <option value="F">°F</option>
+                        </select>
+                    </div>
+                    <div class="weather">
+                        <div class="weatherPic">
+                            <h2 class="rain">Today</h2>
+                            <img src="/assets/some_rain.png" alt="rain pic">
+                            <p class="pText">Some rain</p>
+                            <p class="redText" id="red1">24°</p>
+                            <p class="blueText" id="blue1">18°</p>
+                        </div>
+                        <div class="weatherPic">
+                            <h2 class="sun1">Tomorrow</h2>
+                            <img src="/assets/some_sun.png" alt="sun pic">
+                            <p class="pText">Some sun</p>
+                            <p class="redText" id="red2">27°</p>
+                            <p class="blueText" id="blue2">19°</p>
+                        </div>
+                        <div class="weatherPic">
+                            <h2 class="cloud">Friday</h2>
+                            <img src="/assets/some_clouds.png" alt="clouds pic">
+                            <p class="pText">Some clouds</p>
+                            <p class="redText" id="red3">21°</p>
+                            <p class="blueText" id="blue3">16°</p>
+                        </div>
+                        <div class="weatherPic">
+                            <h2 class="sun2">Saturday</h2>
+                            <img src="/assets/some_sun.png" alt="sun pic">
+                            <p class="pText">Some sun</p>
+                            <p class="redText" id="red4">26°</p>
+                            <p class="blueText" id="blue4">21°</p>
+                        </div>
+                    </div>
+                    <div class="cookiesAccept" id="acceptCookies">
+                        <div class="cookieBox">
+                            <img src="/assets/cookie.png" alt="cookie pic">
+                        </div>
+                        <div class="cookieText">
+                            <h3>Stop! Cookie time!</h3>
+                            <p>We use cookies (sadly not the edible ones) to personalize<br>
+                            content and ads, to provide social media features and to<br>
+                            analyse our traffic. <a href="#">Read more...</a>
+                            </p>
+                        </div>
+                        <div class="buttonBox">
+                            <button onclick="buttonAccept(this)" class="acceptBtn">I accept</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
